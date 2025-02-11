@@ -27,7 +27,7 @@ The data was originally cleaned using R. Here is a link to the R script used to 
 I used Python to then clean the data a bit further.
 
 #### How was the data cleaned or transformed? Be specific.​ <br>
-Python was used to clean and transform the Olypic history dataset I acquired. I performed the following:
+Python was used to clean and transform the Olympic history dataset I acquired. I performed the following:
 - filtered to only contain rows where the NOC (Nantional Olympic Committee) is equal to USA
 - converted all coluimn names to lowercase with no spaces or special characters to better work with SQL
 - removed 249 duplicate rows if they were identical
