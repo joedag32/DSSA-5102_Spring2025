@@ -6,23 +6,23 @@ _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](
 - Python, SQL, Anaconda Navigator (though it won't install on my MacBookPro 😞), Jupyter Notebook, Github, Spyder
 
 ### USA Olympic Athletes
-![Olympic rings](Assignments/images/400px-Olympic_rings_without_rims.svg.png) 
+![Olympic rings](https://github.com/joedag32/DSSA-5102_Spring2025/blob/main/Assignments/images/Olympic_rings_without_rims.svg.png) 
 
 The USA Olympic Athletes project is my Data Gathering & Warehousing for the Spring 2025 semester. I hope to expand on it's scope as we learn more about our upcoming assignments.
 
 #### Where is the data from? ​ <br>
-The [120 years of Olympic history: athletes and results - (https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)] was shared on kaggle by user rgriffin in 2018. I accessed the data on 2/8/2025.
+The [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) was shared on kaggle by user rgriffin in 2018. I accessed the data on 2/8/2025.
 
 #### How was it collected?​ <br>
 rgriffin scraped the data from www.sports-reference.com in May 2018.
 
 #### How was it extracted?​ <br>
-The R code used to [scrape the data - (https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20scrape.R)] is available. It was a one-time extraction with no updates.
+The R code used to [scrape the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20scrape.R) is available. It was a one-time extraction with no updates.
 
 I downloaded the .csv data file from kaggle and converted it to a databale using Python.
 
 #### What program was used to clean the data?​ <br>
-The data was cleaned using R. They linked to the script they used to [wrangle the data -(https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20wrangle.R)].
+The data was cleaned using R. They linked to the script they used to [wrangle the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20wrangle.R).
 
 I used Python to then clean the data a bit further.
 
@@ -70,4 +70,4 @@ The Olympic games go back 120+ years, so I'd imagine that the data has been vali
 - medal - Gold, Silver, Bronze, or NA
 
 #### What are the regulations to using the data?<br>
-[CCO: Public Domain - (https://creativecommons.org/publicdomain/zero/1.0/)]
+[CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
