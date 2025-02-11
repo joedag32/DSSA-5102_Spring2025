@@ -10,23 +10,23 @@ _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](
 
 The USA Olympic Athletes is my Data Gathering & Warehousing project for the Spring 2025 semester. I hope to expand on it's scope as we learn more about our upcoming assignments.
 
-#### Where is the data from? ​ <br>
+#### Where the data is from<br>
 The [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) was shared on kaggle by user rgriffin in 2018. I accessed the data on 2/8/2025.
 
-#### How was it collected?​ <br>
+#### How it was collected<br>
 rgriffin scraped the data using R from www.sports-reference.com in May 2018.
 
-#### How was it extracted?​ <br>
+#### How it was extracted<br>
 The R code used to [scrape the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20scrape.R) is available. It was a one-time extraction with no updates.
 
 I downloaded the .csv data file from kaggle and converted it to a datatable using Python.
 
-#### What program was used to clean the data?​ <br>
+#### The program used to clean the data<br>
 The data was originally cleaned using R. Here is a link to the R script used to [wrangle the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20wrangle.R).
 
 I used Python to then clean the data a bit further.
 
-#### How was the data cleaned or transformed? Be specific.​ <br>
+#### How the data cleaned or transformed<br>
 Python was used to clean and transform the Olympic history dataset I acquired. I performed the following:
 - filtered to only contain rows where the NOC (Nantional Olympic Committee) is equal to USA
 - converted all coluimn names to lowercase with no spaces or special characters to better work with SQL
@@ -36,20 +36,20 @@ Python was used to clean and transform the Olympic history dataset I acquired. I
 - removed the _games_ column as it was redundant with the year and season columns
 - checked for outliers in the age column
 
-#### What are the units of the numeric data?​<br>
+#### The units of the numeric data<br>
 - id - a unique integer for each athlete
 - age - measured in years
 - height - centimeters
 - weight - kilograms
 - year - 4 digit year
 
-#### What were the formulas used in column creation?​<br>
+#### Formulas used in column creation<br>
 No new columns were created by me for this dataset. 
 
-#### How is the data validated to ensure consistency?​<br>
+#### How the data validated to ensure consistency<br>
 The Olympic games go back 120+ years, so I'd imagine that the data has been validated in numerous ways. Probably paper trails and in more modern games with digital devices. I spot checked some numerical columns for the max and min range to see if there were any obvious outliers. If I were to add future rowns of data I'd make sure the gender, season, sport, event and medal fields were collected with some sort of digial validation to ensure consistant data entry.
 
-#### What are the definitions for the column names? Include all columns in your dataset.​<br>
+#### Definitions for the column names<br>
 - id - a unique integer for each athlete
 - name - the athlete's name
 - sex - gender
@@ -64,10 +64,13 @@ The Olympic games go back 120+ years, so I'd imagine that the data has been vali
 - event - the event
 - medal - Gold, Silver, Bronze or NA
 
-#### If there are set variable options in your dataset, what are thier definitions? ​<br>
+#### Set variable options in the dataset, and their definitions<br>
 - sex - M or F
 - season - Summer or Winter
 - medal - Gold, Silver, Bronze, or NA
 
-#### What are the regulations to using the data?<br>
+> [!NOTE]
+> The use of the USA Olympic Athletes does not mean that I possess an ounce of athleticism if we are ever picking teams for sport.
+
+#### Regulations to using the data<br>
 You are free to use my data in anyway you see fit, have fun. The [source data](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) is licensed under the [CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/), so please respect any of their wishes and credit them where appropriate.
