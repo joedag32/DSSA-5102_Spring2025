@@ -8,32 +8,32 @@ _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](
 ### USA Olympic Athletes
 ![Olympic rings](https://github.com/joedag32/DSSA-5102_Spring2025/blob/main/Assignments/images/Olympic_rings_without_rims.svg.png) 
 
-The USA Olympic Athletes project is my Data Gathering & Warehousing for the Spring 2025 semester. I hope to expand on it's scope as we learn more about our upcoming assignments.
+The USA Olympic Athletes is my Data Gathering & Warehousing project for the Spring 2025 semester. I hope to expand on it's scope as we learn more about our upcoming assignments.
 
 #### Where is the data from? ​ <br>
 The [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) was shared on kaggle by user rgriffin in 2018. I accessed the data on 2/8/2025.
 
 #### How was it collected?​ <br>
-rgriffin scraped the data from www.sports-reference.com in May 2018.
+rgriffin scraped the data using R from www.sports-reference.com in May 2018.
 
 #### How was it extracted?​ <br>
 The R code used to [scrape the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20scrape.R) is available. It was a one-time extraction with no updates.
 
-I downloaded the .csv data file from kaggle and converted it to a databale using Python.
+I downloaded the .csv data file from kaggle and converted it to a datatable using Python.
 
 #### What program was used to clean the data?​ <br>
-The data was cleaned using R. They linked to the script they used to [wrangle the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20wrangle.R).
+The data was originally cleaned using R. Here is a link to the R script used to [wrangle the data](https://github.com/rgriff23/Olympic_history/blob/master/R/olympics%20wrangle.R).
 
 I used Python to then clean the data a bit further.
 
 #### How was the data cleaned or transformed? Be specific.​ <br>
-I used Python to clean and transform the Olypic history dataset. I performed the following:
+Python was used to clean and transform the Olypic history dataset I acquired. I performed the following:
 - filtered to only contain rows where the NOC (Nantional Olympic Committee) is equal to USA
-- converted all coluimn names with lowercase with no spaces or special characters
+- converted all coluimn names to lowercase with no spaces or special characters to better work with SQL
 - removed 249 duplicate rows if they were identical
-- removed leading and trailing and whitespace characters from the name and event columns
-- removed the noc column as it was no longer necessary since only USA results remain
-- removed the games column as it was redundant with the year and season columns
+- removed leading and trailing whitespace characters from the name and event columns
+- removed the _noc_ column as it was no longer necessary since only USA results remain
+- removed the _games_ column as it was redundant with the year and season columns
 - checked for outliers in the age column
 
 #### What are the units of the numeric data?​<br>
@@ -47,7 +47,7 @@ I used Python to clean and transform the Olypic history dataset. I performed the
 No new columns were created by me for this dataset. 
 
 #### How is the data validated to ensure consistency?​<br>
-The Olympic games go back 120+ years, so I'd imagine that the data has been validated in numerous ways. Probably paper trails and in more modern games with digital information. I spot checked some numerical columns for the max and min range to see if there were any obvious outliers. If I were to append data I'd make sure the the gender, season, sport, event and medal fields were collected with some so of digial validation to ensure consistant data entry.
+The Olympic games go back 120+ years, so I'd imagine that the data has been validated in numerous ways. Probably paper trails and in more modern games with digital devices. I spot checked some numerical columns for the max and min range to see if there were any obvious outliers. If I were to add future rowns of data I'd make sure the gender, season, sport, event and medal fields were collected with some sort of digial validation to ensure consistant data entry.
 
 #### What are the definitions for the column names? Include all columns in your dataset.​<br>
 - id - a unique integer for each athlete
