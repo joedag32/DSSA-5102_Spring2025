@@ -70,7 +70,7 @@ The Olympic games go back 120+ years, so I'd imagine that the data has been vali
 - medal - Gold, Silver, Bronze, or NA
 
 > [!NOTE]
-> The use of the USA Olympic Athletes does not mean that I possess an ounce of athleticism if we are ever picking teams for sport.
+> The use of the USA Olympic Athletes dataset does not mean that I possess an ounce of athleticism if we are ever picking teams for sport.
 
 #### Regulations to using the data<br>
 You are free to use my data in anyway you see fit, have fun. The [source data](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) is licensed under the [CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/), so please respect any of their wishes and credit them where appropriate.
