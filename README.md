@@ -3,7 +3,7 @@
 _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](https://www.stockton.edu/)
 
 ### Languages & Environment
-- Python, SQL, Anaconda Navigator (though it won't install on my MacBookPro 😞), Jupyter Notebook, Github, Spyder
+- Python, SQL, Jupyter Notebook, Github
 
 ### USA Olympic Athletes
 ![Olympic rings](https://github.com/joedag32/DSSA-5102_Spring2025/blob/main/Assignments/images/Olympic_rings_without_rims.svg.png) 
@@ -11,7 +11,7 @@ _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](
 The USA Olympic Athletes is my Data Gathering & Warehousing project for the Spring 2025 semester. I hope to expand on it's scope as we learn more about our upcoming assignments.
 
 #### Where the data is from<br>
-The [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) was shared on kaggle by user rgriffin in 2018. I accessed the data on 2/8/2025.
+The [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) was shared on kaggle by user rgriffin in 2018. They scraped the data from [Sports-Reference.com](https://www.sports-reference.com). I accessed the data on 2/8/2025.
 
 #### How it was collected<br>
 rgriffin scraped the data using R from www.sports-reference.com in May 2018.
