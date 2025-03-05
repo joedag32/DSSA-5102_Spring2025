@@ -37,11 +37,13 @@ Python was used to clean and transform the Olympic history dataset I acquired. I
 - checked for outliers in the age column
 
 #### The units of the numeric data<br>
-- id - a unique integer for each athlete
-- age - measured in years
-- height - centimeters
-- weight - kilograms
-- year - 4 digit year
+| Column Name  | Numerical Data                    |
+| ------------ | --------------------------------- |
+| id           | a unique integer for each athlete |
+| age          | measured in years                 |
+| height       | centimeters                       |
+| weight       | kilograms                         |
+| year         | 4 digit year                      |
 
 #### Formulas used in column creation<br>
 No new columns were created by me for this dataset. 
