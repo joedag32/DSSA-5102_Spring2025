@@ -37,11 +37,13 @@ Python was used to clean and transform the Olympic history dataset I acquired. I
 - checked for outliers in the age column
 
 #### The units of the numeric data<br>
-- id - a unique integer for each athlete
-- age - measured in years
-- height - centimeters
-- weight - kilograms
-- year - 4 digit year
+| Column Name  | Numerical Data                    |
+| ------------ | --------------------------------- |
+| id           | a unique integer for each athlete |
+| age          | measured in years                 |
+| height       | centimeters                       |
+| weight       | kilograms                         |
+| year         | 4 digit year                      |
 
 #### Formulas used in column creation<br>
 No new columns were created by me for this dataset. 
@@ -50,24 +52,28 @@ No new columns were created by me for this dataset.
 The Olympic games go back 120+ years, so I'd imagine that the data has been validated in numerous ways. Probably paper trails and in more modern games with digital devices. I spot checked some numerical columns for the max and min range to see if there were any obvious outliers. If I were to add future rowns of data I'd make sure the gender, season, sport, event and medal fields were collected with some sort of digial validation to ensure consistant data entry.
 
 #### Definitions for the column names<br>
-- id - a unique integer for each athlete
-- name - the athlete's name
-- sex - gender
-- age - year
-- height - centimeters
-- weight - kilograms
-- team - sub USA olympic team or organization
-- year - the year of the game
-- season - Summer or Winter
-- city - host city
-- sport - the sport
-- event - the event
-- medal - Gold, Silver, Bronze or NA
+| Column Name | Definition                            |
+| ----------- | -------------------------------       |
+| id          | a unique integer for each athlete     |
+| name        | the athlete's name                    |
+| sex         | gender                                |
+| age         | years                                 |
+| height      | centimeters                           |
+| weight      | kilograms                             |
+| team        | sub USA olympic team or organization  |
+| year        | the year of the game                  |
+| season      | Summer or Winter                      |
+| city        | host city                             |
+| sport       | the sport                             |
+| event       | the event                             |
+| medal       | Gold, Silver, Bronze of NA            |
 
 #### Set variable options in the dataset, and their definitions<br>
-- sex - M or F
-- season - Summer or Winter
-- medal - Gold, Silver, Bronze, or NA
+| Column Name | Variable Options             |
+| ----------- | ---------------------------- |
+| sex         | M or F                       |
+| season      | Summer or Winter             |
+| medal       | Gold, Silver, Bronze, or NA  |
 
 > [!NOTE]
 > The use of the USA Olympic Athletes dataset does not mean that I possess an ounce of athleticism if we are ever picking teams for sport.
